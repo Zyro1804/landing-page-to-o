@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react';
-import { Box, IconButton } from '@mui/material';
+import { Box} from '@mui/material';
 import portada from '../assets/images/portada.jpg';
 import imagen2 from '../assets/images/imagen2.jpg';
 import imagen3 from '../assets/images/imagen3.jpg';
@@ -20,11 +20,11 @@ function ImageCarousel() {
     setCurrent((prev) => (prev + 1) % images.length);
   };
 
-  const previousImage = () => {
-    setCurrent(
-      (prev) => (prev - 1 + images.length) % images.length
-    );
-  };
+//   const previousImage = () => {
+//     setCurrent(
+//       (prev) => (prev - 1 + images.length) % images.length
+//     );
+//   };
 
   // Cambio automático
   useEffect(() => {

@@ -1,5 +1,5 @@
 import { Box, Button, Container, Grid, Typography } from '@mui/material';
-import portada from '../assets/images/portada.jpg'
+
 import ImageCarousel from './ImagenesCarrusel';
 
 function Hero() {
