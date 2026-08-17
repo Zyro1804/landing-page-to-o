@@ -1,6 +1,7 @@
 import { AppBar, Box, Button, Container, Toolbar} from "@mui/material";
 import { useEffect, useState } from "react";
 import logo from '../assets/images/logo.png'
+import logo1 from '../assets/images/logo toño.jpg'
 const navigation = [
   {
     label: 'Noticias',
@@ -143,7 +144,7 @@ function HeaderComponent() {
           {/* Donate */}
               <Box
         component="img"
-        src={logo}
+        src={logo1}
         alt="MORENA"
         sx={{
             height: 50,
